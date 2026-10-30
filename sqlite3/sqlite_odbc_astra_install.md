@@ -102,6 +102,12 @@ odbcinst -q -d
 [SQLite3]
 ```
 
+Если нет, то:
+```bash
+sudo apt update
+sudo apt install unixodbc odbcinst
+```
+
 ## 6. Создать DSN для базы WinCC OA
 
 Создайте или отредактируйте `/etc/odbc.ini`:
